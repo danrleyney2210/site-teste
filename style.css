@@ -74,3 +74,9 @@ section{
 .accordion-item:target .answer{
     max-height: 20rem;
 }
+.accordion-item:target .ion-md-add{
+    display: none;
+}
+.accordion-item:target .ion-md-remove{
+    display: block;
+}
